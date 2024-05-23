@@ -1,0 +1,30 @@
+li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    list-style: none;
+} body{
+    background-color: plum;
+}
+.menu li{
+    display: inline-block;
+} .pod_menu{
+    position: absolute;
+    display: none;
+}
+li a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border: dashed 2px  hotpink;
+    background-color: pink;
+
+    text-shadow: 1px 1px mediumvioletred;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+li:hover ul {
+    display: inline-block;
+    margin-top: 36px;
+    margin-left: -100px;
+}
