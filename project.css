@@ -28,3 +28,85 @@ li:hover ul {
     margin-top: 36px;
     margin-left: -100px;
 }
+header{
+    background: rgb(0,54,158);
+    background: linear-gradient(90deg, rgba(0,54,158,1) 0%, rgba(0,128,194,0) 8%);
+}
+footer{
+    background: rgb(10,0,158);
+    background: linear-gradient(90deg, rgba(10,0,158,1) 0%, rgba(0,75,194,0) 8%);
+}
+
+body{
+font-family: 'Courier New', Courier, monospace;
+background-image:url(https://kartinkis.cdnbro.com/posts/825915-geometricheskie-serye-fony-47.jpg) ;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: steelblue;
+}
+
+nav{
+    display: inline-block;
+    width: 500px;
+    position: relative;
+}
+
+form{
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+
+.menu{
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    width: 80px;
+}
+
+.pod-menu {
+    display: none;
+}
+
+li:hover ul{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    width: 30px;
+}
+h1{
+    color: steelblue;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 200px;
+}
+#abz1{
+    text-align: center;
+    width: 700px;
+    margin-left: 500px;
+    border: 1px solid steelblue;
+}
+#abz2{
+    text-align: center;
+    width: 700px;
+    border: 1px solid steelblue; 
+}
+table{
+    border-collapse:collapse ;
+}
+th{
+    border: 2px solid steelblue;
+}
+td{
+    border: 2px solid steelblue;
+}
+strong{
+    color: steelblue;
+    text-shadow: 1px 1px 1px black;
